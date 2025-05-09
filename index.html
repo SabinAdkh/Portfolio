@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sabin Adhikari - Fullpage Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+            <nav>
+                <a href="#" class="logo">Sabin Adhikari</a>
+                <ul>
+                    <li><a href="#about" class="active" data-section="about">About</a></li>
+                    <li><a href="#skills" data-section="skills">Skills</a></li>
+                    <li><a href="#education" data-section="education">Education</a></li>
+                    <li><a href="#experience" data-section="experience">Experience</a></li>
+                    <li><a href="#projects" data-section="projects">Projects</a></li>
+                    <li><a href="#publications" data-section="publications">Publications</a></li>
+                    <li><a href="#contact" data-section="contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <section id="about" class="section active-section">
+                <div class="container">
+                    <div class="content-wrapper">
+                        <h2>About <span class="animated-name">Sabin Adhikari</span></h2>
+                        <div class="about-content">
+                            <img src="images/profile.jpeg" alt="Sabin Adhikari">
+                            <p>
+                                A highly motivated and detail-oriented Master of Science in Computer Science graduate from the
+                                University of South Dakota, with a strong foundation in data analysis, machine learning, and cloud
+                                computing. My passion lies in leveraging cutting-edge technologies to solve complex problems and
+                                drive impactful solutions. I possess hands-on experience in designing and implementing ETL
+                                pipelines, developing machine learning models, and managing cloud infrastructure across AWS, GCP,
+                                and Azure. I am eager to apply my skills and knowledge to contribute to a dynamic team and make a
+                                meaningful difference in the field of Data AI Engineering.
+                            </p>
+                        </div>
+                        <div class="about-actions">
+                            <a href="cv/Sabin_Adhikari_Resume.pdf" download class="cv-download-button">Download CV</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="parallax-bg" style="background-image: url('images/bg-abstract1.jpg')"></div>
+            </section>
+
+            <section id="skills" class="section">
+                <div class="container">
+                    <div class="content-wrapper">
+                        <h2>Skills</h2>
+                        <div class="skills-content">
+                            <div class="skill-category">
+                                <h3><i class="fas fa-code"></i> Programming Languages</h3>
+                                <p>Python | Java | SQL | MySQL, PostgreSQL | Bash</p>
+                            </div>
+                            <div class="skill-category">
+                                <h3><i class="fas fa-cloud"></i> Technologies</h3>
+                                <p>Azure (Data Factory) | AWS (EC2, S3, Lambda, Glue), GCP (BigQuery) | Airflow</p>
+                            </div>
+                            <div class="skill-category">
+                                <h3><i class="fas fa-database"></i> Data Tools</h3>
+                                <p>PySpark | Databricks | Tableau | Looker Studio</p>
+                            </div>
+                            <div class="skill-category">
+                                <h3><i class="fas fa-server"></i> DevOps & Other Tools</h3>
+                                <p>Docker | Git | Linux | Prometheus | Grafana | Terraform | Pulumi</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skewed-bg" style="background-color: #a1887f;"></div>
+            </section>
+
+            <section id="education" class="section">
+                <div class="container">
+                    <div class="content-wrapper">
+                        <h2>Education</h2>
+                        <div class="education-item">
+                            <h3><i class="fas fa-graduation-cap"></i> Masters of Science in Computer Science</h3>
+                            <p>University of South Dakota</p>
+                            <small>Expected Graduation: May 2025</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="gradient-bg"></div>
+            </section>
+
+            <section id="experience" class="section" style="padding-top: 120px;">
+                <div class="container">
+                    <div class="content-wrapper">
+                        <h2 class="section-title">Experience</h2>
+                        <div class="experience-grid">
+                            <div class="experience-item">
+                                <h3><i class="fas fa-briefcase"></i> Data AI Engineer Apprentice</h3>
+                                <p>BCAMP (Aug 2023 - Mar 2025)</p>
+                                <ul>
+                                    <li>Designed and implemented cloud infrastructure architecture to deploy resources across AWS, GCP, and Microsoft Azure using Pulumi as Infrastructure as Code (IaC).</li>
+                                    <li>Automated the provisioning and management of cloud resources, ensuring scalability, reliability, and cost-efficiency.</li>
+                                    <li>Collaborated with cross-functional teams to integrate cloud infrastructure with data pipelines and AI/ML workflows.</li>
+                                </ul>
+                            </div>
+                            <div class="experience-item">
+                                <h3><i class="fas fa-flask"></i> Graduate AI Researcher</h3>
+                                <p>University of South Dakota (Aug 2024 - Dec 2024)</p>
+                                <ul>
+                                    <li>Utilized Mamba architecture to analyze financial data, improving prediction accuracy and performance.</li>
+                                    <li>Conducted research on GPU clusters to compare training time and memory usage between Transformer and Mamba architectures.</li>
+                                    <li>Gathered financial data, performed data analysis, and preprocessed datasets for model training.</li>
+                                </ul>
+                            </div>
+                            <div class="experience-item">
+                                <h3><i class="fas fa-network-wired"></i> Blockchain Engineer Intern</h3>
+                                <p>Investment Company (Jan 2024 - May 2024)</p>
+                                <ul>
+                                    <li>Created AWS EC2 instances to run Blockchain nodes and incorporated bash scripts for node management.</li>
+                                    <li>Implemented monitoring solutions using Prometheus and Grafana, achieving real-time performance visualization that improved incident response times by 25% across all nodes.</li>
+                                    <li>Coordinated with a cross-functional IT team to establish robust security protocols for Blockchain services deployment, achieving a 100% compliance rate with industry standards and reducing vulnerability risks by approximately 60%.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="gradient-bg"></div>
+            </section>
+            
+            <section id="projects" class="section" style="padding-top: 120px;">
+                <div class="container">
+                    <div class="content-wrapper">
+                        <h2 class="section-title">Notable Projects</h2>
+                        <div class="project-grid">
+                            <div class="project-card">
+                                <h3><i class="fas fa-chart-bar"></i> Uber Data Analytics - ETL Pipeline Development</h3>
+                                <p>Designed and implemented an end-to-end ETL pipeline using Mage-AI to extract data from GCP Bucket, transform it using Python, and load it into BigQuery for analysis.</p>
+                                <ul>
+                                    <li>Utilized dimensional modeling techniques to create fact and dimension tables, enabling efficient querying and reporting.</li>
+                                    <li>Built interactive dashboards in Looker Studio to visualize key metrics such as trip duration, revenue, and driver performance, providing actionable insights for stakeholders.</li>
+                                </ul>
+                                <a href="#">View Project <i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                            <div class="project-card">
+                                <h3><i class="fas fa-database"></i> Sales Data Analysis - Data Engineering Project</h3>
+                                <p>Loaded sales data from CSV files into Python using Pandas, cleaned and preprocessed the data by handling missing values and removing duplicates.</p>
+                                <ul>
+                                    <li>Performed exploratory data analysis (EDA) to identify trends and patterns in sales data.</li>
+                                    <li>Wrote SQL queries to answer business questions such as total revenue, top-selling products, and sales performance by region.</li>
+                                    <li>Exported the processed data into a PostgreSQL database for further analysis and reporting.</li>
+                                </ul>
+                                <a href="#">View Project <i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                            <div class="project-card">
+                                <h3><i class="fas fa-brain"></i> Financial Inclusion in Africa - Data Classification</h3>
+                                <p>Developed a machine learning model to predict the likelihood of individuals having a bank account using a dataset from Zindi, achieving an F1-score of 0.85.</p>
+                                <ul>
+                                    <li>Addressed class imbalance using the SMOTE oversampling technique and evaluated models using precision, recall, and F1-score.</li>
+                                    <li>Trained and compared multiple models, including Logistic Regression, Random Forest, and XGBoost, to identify the best-performing algorithm for the task.</li>
+                                </ul>
+                                <a href="#">View Project <i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="circle-scatter-bg"></div>
+            </section>
+
+            <section id="publications" class="section">
+                <div class="container">
+                    <div class="content-wrapper">
+                        <h2>Publications</h2>
+                        <ul>
+                            <li><i class="fas fa-book-open"></i>  Sabin Adhikari, "An Efficient Approach for Predicting the State of
+                                Financial Inclusion...", 2023 ICCSEA, Greate, SD. [cite: 22] <a href="#" target="_blank"><i
+                                        class="fas fa-external-link-alt"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="wave-bg">
+                    <svg viewBox="0 0 1200 120" preserveAspectRatio="none">
+                        <path d="M0,0 L1200,0 C1000,120 200,120 0,0 Z" fill="#fdd835"></path>
+                    </svg>
+                </div>
+            </section>
+
+            <section id="contact" class="section">
+                <div class="container">
+                    <div class="content-wrapper">
+                        <h2>Contact</h2>
+                        <p>Let's connect and explore opportunities!</p>
+                        <div class="contact-details">
+                            <p><i class="fas fa-envelope"></i> Email: <a
+                                    href="mailto:adhikarisabin258@gmail.com">adhikarisabin258@gmail.com</a></p>
+                            <p><i class="fas fa-phone"></i> Phone: +1 848-319-9130</p>
+                            <p><i class="fab fa-github"></i> GitHub: <a href="https://github.com/SabinAdkh"
+                                    target="_blank">github.com/your-github-username</a></p>
+                            <p><i class="fab fa-linkedin"></i> LinkedIn: <a
+                                    href="https://www.linkedin.com/in/sabin-adhikari-1182a816b/"
+                                    target="_blank">linkedin.com/in/your-linkedin-username</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="solid-bg" style="background-color: #9575cd;"></div>
+            </section>
+        </main>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Sabin Adhikari. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
